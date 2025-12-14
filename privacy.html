@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ココキタ プライバシーポリシー - 個人情報の取り扱いについて">
+    <link rel="icon" type="image/png" href="kokita_irodori_blue_icon.png">
+    <title>プライバシーポリシー - ココキタ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #007AFF;
+            --secondary-color: #5856D6;
+            --text-dark: #1d1d1f;
+            --text-light: #6e6e73;
+            --bg-light: #f5f5f7;
+            --white: #ffffff;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: var(--bg-light);
+        }
+
+        /* ヘッダー */
+        header {
+            background: var(--white);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--shadow);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+        }
+
+        .back-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s;
+        }
+
+        .back-link:hover {
+            opacity: 0.7;
+        }
+
+        /* メインコンテンツ */
+        main {
+            max-width: 900px;
+            margin: 3rem auto;
+            background: var(--white);
+            padding: 3rem;
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 1rem;
+        }
+
+        .last-updated {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+            border-left: 4px solid var(--primary-color);
+            padding-left: 1rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-dark);
+        }
+
+        p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        ul, ol {
+            margin-bottom: 1rem;
+            margin-left: 2rem;
+            line-height: 1.8;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        strong {
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .language-divider {
+            border: none;
+            border-top: 2px solid var(--bg-light);
+            margin: 4rem 0;
+        }
+
+        .info-box {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .contact-info {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: var(--white);
+            padding: 2rem;
+            border-radius: 12px;
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .contact-info h3 {
+            color: var(--white);
+            margin-top: 0;
+        }
+
+        .contact-info a {
+            color: var(--white);
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+        /* フッター */
+        footer {
+            background: var(--text-dark);
+            color: var(--white);
+            padding: 2rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .copyright {
+            opacity: 0.6;
+            font-size: 0.9rem;
+        }
+
+        /* レスポンシブ */
+        @media (max-width: 768px) {
+            main {
+                margin: 1rem;
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            .logo-icon {
+                width: 35px;
+                height: 35px;
+            }
+
+            .logo {
+                font-size: 1.3rem;
+            }
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="kokita_irodori_blue_icon.png" alt="ココキタアイコン" class="logo-icon">
+                <span>ココキタ</span>
+            </a>
+            <a href="index.html" class="back-link">← トップページに戻る</a>
+        </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main>
+        <h1>プライバシーポリシー</h1>
+        <p class="last-updated">最終更新日：2025年11月</p>
+
+        <div class="section">
+            <h2>1. はじめに</h2>
+            <p>ryo hashimoto（以下「開発者」）が提供するiOSアプリケーション「ココキタ」（以下「本アプリ」）は、ユーザーの皆様のプライバシーを尊重し、個人情報の保護に努めます。本プライバシーポリシーは、本アプリにおける情報の取り扱いについて説明するものです。</p>
+        </div>
+
+        <div class="section">
+            <h2>2. 開発者情報</h2>
+            <ul>
+                <li><strong>開発者</strong>: ryo hashimoto</li>
+                <li><strong>アプリ名</strong>: ココキタ</li>
+                <li><strong>Bundle ID</strong>: com.irodori.kokokita.app</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. 収集する情報</h2>
+            <p>本アプリは、以下の情報を収集します。</p>
+
+            <h3>3.1 位置情報</h3>
+            <ul>
+                <li><strong>収集する情報</strong>: GPS座標（緯度・経度）、位置精度、取得日時</li>
+                <li><strong>収集目的</strong>: 訪問記録の作成・管理機能を提供するため</li>
+                <li><strong>収集方法</strong>: ユーザーが「ココキタ」ボタンを押した際に、デバイスの位置情報サービスを使用して取得</li>
+                <li><strong>利用タイミング</strong>: アプリ使用中のみ（バックグラウンドでは取得しません）</li>
+            </ul>
+
+            <h3>3.2 写真</h3>
+            <ul>
+                <li><strong>収集する情報</strong>: ユーザーが選択した写真データ</li>
+                <li><strong>収集目的</strong>: 訪問記録に写真を添付する機能を提供するため</li>
+                <li><strong>収集方法</strong>: ユーザーがカメラで撮影、またはフォトライブラリから選択</li>
+                <li><strong>保存枚数</strong>: 1つの訪問記録につき最大4枚</li>
+            </ul>
+
+            <h3>3.3 訪問記録データ</h3>
+            <ul>
+                <li><strong>収集する情報</strong>: タイトル、コメント、施設情報（名称、住所、電話番号、カテゴリ）、ラベル、グループ、メンバー情報</li>
+                <li><strong>収集目的</strong>: 訪問記録の管理機能を提供するため</li>
+                <li><strong>収集方法</strong>: ユーザーがアプリ内で入力</li>
+            </ul>
+
+            <h3>3.4 アプリ設定情報</h3>
+            <ul>
+                <li><strong>収集する情報</strong>: フィルタ設定、表示順序などのアプリ内設定</li>
+                <li><strong>収集目的</strong>: アプリの利便性向上のため</li>
+                <li><strong>保存場所</strong>: デバイス内のローカルストレージ（UserDefaults）</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. 情報の保存と管理</h2>
+
+            <h3>4.1 保存場所</h3>
+            <div class="info-box">
+                <p><strong>すべてのデータはデバイス内のみに保存されます</strong></p>
+                <ul>
+                    <li>開発者のサーバーやクラウドには一切送信されません</li>
+                    <li>インターネット接続がなくてもアプリは完全に動作します</li>
+                </ul>
+            </div>
+
+            <h3>4.2 データの保護</h3>
+            <ul>
+                <li><strong>暗号署名</strong>: 位置情報データには暗号署名（P256 ECDSA）が付与され、改ざんを防止</li>
+                <li><strong>秘密鍵の保護</strong>: 暗号署名に使用する秘密鍵はiOSのKeychainに安全に保存</li>
+                <li><strong>写真の保存</strong>: アプリ専用のディレクトリに保存され、他のアプリからはアクセス不可</li>
+            </ul>
+
+            <h3>4.3 偽装位置情報の検出</h3>
+            <p>本アプリは、位置情報の信頼性を確保するため、以下をチェックします：</p>
+            <ul>
+                <li>ソフトウェアによる位置情報シミュレーション</li>
+                <li>外部アクセサリによる位置情報送信</li>
+            </ul>
+            <p>偽装が検出された場合、訪問記録の作成はできません。</p>
+        </div>
+
+        <div class="section">
+            <h2>5. 第三者への情報提供</h2>
+
+            <h3>5.1 広告配信サービス</h3>
+            <p>本アプリは、Google AdMob（Google LLC提供）を使用して広告を表示します。</p>
+
+            <p><strong>提供される可能性のある情報</strong>:</p>
+            <ul>
+                <li>広告識別子（IDFA）- ユーザーが許可した場合のみ</li>
+                <li>デバイス情報（OSバージョン、デバイスモデル）</li>
+                <li>アプリ使用状況（アプリの起動、広告の表示・クリック）</li>
+                <li>IPアドレス（概ねの位置情報の推定に使用される場合があります）</li>
+            </ul>
+
+            <p><strong>Google AdMobのプライバシーポリシー</strong>:<br>
+            <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+            <div class="info-box">
+                <p><strong>個人情報の送信について</strong>:</p>
+                <ul>
+                    <li>本アプリが記録する位置情報、写真、訪問記録データは、Google AdMobに送信されません</li>
+                    <li>広告配信に必要な情報のみがGoogle AdMobに送信されます</li>
+                </ul>
+            </div>
+
+            <h3>5.2 その他の第三者提供</h3>
+            <p>上記以外に、ユーザーの個人情報を第三者に提供することはありません。ただし、以下の場合を除きます：</p>
+            <ul>
+                <li>法令に基づく場合</li>
+                <li>人の生命、身体または財産の保護のために必要がある場合</li>
+                <li>ユーザーの同意がある場合</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>6. 情報の利用目的</h2>
+            <p>収集した情報は、以下の目的でのみ使用されます：</p>
+            <ul>
+                <li>訪問記録の作成・表示・管理機能の提供</li>
+                <li>アプリの機能改善および不具合修正</li>
+                <li>広告の配信（Google AdMob経由）</li>
+                <li>カスタマーサポートの提供</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>7. ユーザーの権利</h2>
+
+            <h3>7.1 データの管理</h3>
+            <ul>
+                <li>すべてのデータはユーザー自身が管理できます</li>
+                <li>訪問記録、写真、タグ（ラベル、グループ、メンバー）はアプリ内でいつでも削除可能</li>
+            </ul>
+
+            <h3>7.2 位置情報の利用停止</h3>
+            <ul>
+                <li>iOSの設定から、いつでも位置情報の利用を停止できます</li>
+                <li>設定 &gt; プライバシーとセキュリティ &gt; 位置情報サービス &gt; ココキタ</li>
+            </ul>
+
+            <h3>7.3 写真アクセスの停止</h3>
+            <ul>
+                <li>iOSの設定から、いつでも写真アクセスを停止できます</li>
+                <li>設定 &gt; プライバシーとセキュリティ &gt; 写真 &gt; ココキタ</li>
+            </ul>
+
+            <h3>7.4 広告トラッキングの制限</h3>
+            <ul>
+                <li>iOSの設定から、広告トラッキングを制限できます</li>
+                <li>設定 &gt; プライバシーとセキュリティ &gt; トラッキング</li>
+            </ul>
+
+            <h3>7.5 データの完全削除</h3>
+            <ul>
+                <li>アプリをアンインストールすることで、すべてのデータが完全に削除されます</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>8. 未成年者の利用</h2>
+            <p>本アプリは、年齢制限なくご利用いただけます。ただし、13歳未満の方が本アプリを利用する場合は、保護者の方の同意を得た上でご利用いただくことを推奨します。本アプリは位置情報や写真などの個人情報を扱うため、保護者の方は本プライバシーポリシーの内容をご確認の上、お子様の利用を管理してください。</p>
+        </div>
+
+        <div class="section">
+            <h2>9. セキュリティ</h2>
+            <p>開発者は、収集した情報の漏洩、紛失、改ざんを防止するため、以下の対策を実施しています：</p>
+            <ul>
+                <li>暗号署名による改ざん検出</li>
+                <li>iOS Keychainを使用した秘密鍵の安全な保管</li>
+                <li>アプリサンドボックスによるデータの隔離</li>
+                <li>定期的なセキュリティレビュー</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>10. プライバシーポリシーの変更</h2>
+            <p>開発者は、法令の変更や本アプリの機能追加に伴い、本プライバシーポリシーを変更することがあります。重要な変更がある場合は、アプリ内または本ページで通知します。</p>
+        </div>
+
+        <div class="contact-info">
+            <h3>11. お問い合わせ</h3>
+            <p>本プライバシーポリシーに関するご質問、ご意見、または個人情報の取り扱いに関するお問い合わせは、以下までご連絡ください。</p>
+            <p><strong>メールアドレス</strong>: <a href="mailto:irodori.developer@gmail.com">irodori.developer@gmail.com</a></p>
+        </div>
+
+        <hr class="language-divider">
+
+        <p style="text-align: center; color: var(--text-light); margin: 2rem 0;">
+            <strong>制定日</strong>: 2025年11月25日<br>
+            <strong>最終改定日</strong>: 2025年11月25日<br>
+            ryo hashimoto
+        </p>
+
+        <hr class="language-divider">
+
+        <!-- English Version -->
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last Updated: November 2025</p>
+
+        <div class="section">
+            <h2>1. Introduction</h2>
+            <p>This Privacy Policy explains how ryo hashimoto (hereinafter referred to as "the Developer") handles information in the iOS application "Kokokita" (hereinafter referred to as "the App"). The Developer respects your privacy and is committed to protecting your personal information.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. Developer Information</h2>
+            <ul>
+                <li><strong>Developer</strong>: ryo hashimoto</li>
+                <li><strong>App Name</strong>: Kokokita</li>
+                <li><strong>Bundle ID</strong>: com.irodori.kokokita.app</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. Information We Collect</h2>
+            <p>The App collects the following information:</p>
+
+            <h3>3.1 Location Information</h3>
+            <ul>
+                <li><strong>Information Collected</strong>: GPS coordinates (latitude and longitude), location accuracy, timestamp</li>
+                <li><strong>Purpose</strong>: To provide visit recording and management features</li>
+                <li><strong>Collection Method</strong>: Collected using the device's location services when the user presses the "Kokokita" button</li>
+                <li><strong>Timing</strong>: Only while using the app (not collected in the background)</li>
+            </ul>
+
+            <h3>3.2 Photos</h3>
+            <ul>
+                <li><strong>Information Collected</strong>: Photo data selected by the user</li>
+                <li><strong>Purpose</strong>: To attach photos to visit records</li>
+                <li><strong>Collection Method</strong>: Captured with the camera or selected from the photo library by the user</li>
+                <li><strong>Storage Limit</strong>: Maximum of 4 photos per visit record</li>
+            </ul>
+
+            <h3>3.3 Visit Record Data</h3>
+            <ul>
+                <li><strong>Information Collected</strong>: Title, comments, facility information (name, address, phone number, category), labels, groups, member information</li>
+                <li><strong>Purpose</strong>: To provide visit record management features</li>
+                <li><strong>Collection Method</strong>: Entered by the user within the app</li>
+            </ul>
+
+            <h3>3.4 App Settings Information</h3>
+            <ul>
+                <li><strong>Information Collected</strong>: Filter settings, display order, and other in-app settings</li>
+                <li><strong>Purpose</strong>: To improve app usability</li>
+                <li><strong>Storage Location</strong>: Device local storage (UserDefaults)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. Information Storage and Management</h2>
+
+            <h3>4.1 Storage Location</h3>
+            <div class="info-box">
+                <p><strong>All data is stored only on your device</strong></p>
+                <ul>
+                    <li>No data is transmitted to the Developer's servers or cloud services</li>
+                    <li>The app functions fully without an internet connection</li>
+                </ul>
+            </div>
+
+            <h3>4.2 Data Protection</h3>
+            <ul>
+                <li><strong>Cryptographic Signatures</strong>: Location data is signed with P256 ECDSA cryptographic signatures to prevent tampering</li>
+                <li><strong>Private Key Protection</strong>: Private keys used for cryptographic signatures are securely stored in iOS Keychain</li>
+                <li><strong>Photo Storage</strong>: Photos are stored in an app-specific directory and cannot be accessed by other apps</li>
+            </ul>
+
+            <h3>4.3 Fake Location Detection</h3>
+            <p>The App checks for the following to ensure location data reliability:</p>
+            <ul>
+                <li>Software-based location simulation</li>
+                <li>Location transmission from external accessories</li>
+            </ul>
+            <p>If fake location is detected, visit record creation will be disabled.</p>
+        </div>
+
+        <div class="section">
+            <h2>5. Third-Party Information Sharing</h2>
+
+            <h3>5.1 Advertising Services</h3>
+            <p>The App uses Google AdMob (provided by Google LLC) to display advertisements.</p>
+
+            <p><strong>Information that may be shared</strong>:</p>
+            <ul>
+                <li>Advertising Identifier (IDFA) - only if permitted by the user</li>
+                <li>Device information (OS version, device model)</li>
+                <li>App usage (app launches, ad views and clicks)</li>
+                <li>IP address (may be used to estimate approximate location)</li>
+            </ul>
+
+            <p><strong>Google AdMob Privacy Policy</strong>:<br>
+            <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+            <div class="info-box">
+                <p><strong>Personal Information Transmission</strong>:</p>
+                <ul>
+                    <li>Location information, photos, and visit record data recorded by the App are NOT transmitted to Google AdMob</li>
+                    <li>Only information necessary for ad delivery is transmitted to Google AdMob</li>
+                </ul>
+            </div>
+
+            <h3>5.2 Other Third-Party Sharing</h3>
+            <p>The Developer does not provide user personal information to third parties except as described above, unless:</p>
+            <ul>
+                <li>Required by law</li>
+                <li>Necessary to protect the life, body, or property of a person</li>
+                <li>User consent is obtained</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>6. Purpose of Information Use</h2>
+            <p>Collected information is used only for the following purposes:</p>
+            <ul>
+                <li>Providing visit record creation, display, and management features</li>
+                <li>App improvement and bug fixes</li>
+                <li>Ad delivery (via Google AdMob)</li>
+                <li>Customer support</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>7. User Rights</h2>
+
+            <h3>7.1 Data Management</h3>
+            <ul>
+                <li>All data can be managed by the user</li>
+                <li>Visit records, photos, and tags (labels, groups, members) can be deleted anytime within the app</li>
+            </ul>
+
+            <h3>7.2 Disabling Location Services</h3>
+            <ul>
+                <li>Location services can be disabled anytime from iOS settings</li>
+                <li>Settings &gt; Privacy &amp; Security &gt; Location Services &gt; Kokokita</li>
+            </ul>
+
+            <h3>7.3 Disabling Photo Access</h3>
+            <ul>
+                <li>Photo access can be disabled anytime from iOS settings</li>
+                <li>Settings &gt; Privacy &amp; Security &gt; Photos &gt; Kokokita</li>
+            </ul>
+
+            <h3>7.4 Limiting Ad Tracking</h3>
+            <ul>
+                <li>Ad tracking can be limited from iOS settings</li>
+                <li>Settings &gt; Privacy &amp; Security &gt; Tracking</li>
+            </ul>
+
+            <h3>7.5 Complete Data Deletion</h3>
+            <ul>
+                <li>All data is completely deleted by uninstalling the app</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>8. Use by Minors</h2>
+            <p>The App can be used without age restrictions. However, if a child under 13 years of age uses the App, we recommend obtaining parental consent before use. Since the App handles personal information such as location data and photos, parents should review this Privacy Policy and manage their child's use accordingly.</p>
+        </div>
+
+        <div class="section">
+            <h2>9. Security</h2>
+            <p>The Developer implements the following measures to prevent information leakage, loss, and tampering:</p>
+            <ul>
+                <li>Tampering detection using cryptographic signatures</li>
+                <li>Secure storage of private keys using iOS Keychain</li>
+                <li>Data isolation through app sandboxing</li>
+                <li>Regular security reviews</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>10. Changes to Privacy Policy</h2>
+            <p>The Developer may update this Privacy Policy due to legal changes or app feature additions. In the event of significant changes, users will be notified within the app or on this page.</p>
+        </div>
+
+        <div class="contact-info">
+            <h3>11. Contact</h3>
+            <p>For questions, comments, or inquiries regarding this Privacy Policy or personal information handling, please contact:</p>
+            <p><strong>Email</strong>: <a href="mailto:irodori.developer@gmail.com">irodori.developer@gmail.com</a></p>
+        </div>
+
+        <p style="text-align: center; color: var(--text-light); margin: 2rem 0;">
+            <strong>Effective Date</strong>: November 25, 2025<br>
+            <strong>Last Revised</strong>: November 25, 2025<br>
+            ryo hashimoto
+        </p>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+        <p class="copyright">&copy; 2024 ココキタ. All rights reserved.</p>
+    </footer>
+</body>
+</html>

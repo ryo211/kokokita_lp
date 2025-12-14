@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ココキタ 利用規約 - サービスのご利用について">
+    <link rel="icon" type="image/png" href="kokita_irodori_blue_icon.png">
+    <title>利用規約 - ココキタ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #007AFF;
+            --secondary-color: #5856D6;
+            --text-dark: #1d1d1f;
+            --text-light: #6e6e73;
+            --bg-light: #f5f5f7;
+            --white: #ffffff;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: var(--bg-light);
+        }
+
+        /* ヘッダー */
+        header {
+            background: var(--white);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--shadow);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+        }
+
+        .back-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s;
+        }
+
+        .back-link:hover {
+            opacity: 0.7;
+        }
+
+        /* メインコンテンツ */
+        main {
+            max-width: 900px;
+            margin: 3rem auto;
+            background: var(--white);
+            padding: 3rem;
+            border-radius: 16px;
+            box-shadow: var(--shadow);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 1rem;
+        }
+
+        .last-updated {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+            border-left: 4px solid var(--primary-color);
+            padding-left: 1rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-dark);
+        }
+
+        p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        ul, ol {
+            margin-bottom: 1rem;
+            margin-left: 2rem;
+            line-height: 1.8;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        strong {
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .language-divider {
+            border: none;
+            border-top: 2px solid var(--bg-light);
+            margin: 4rem 0;
+        }
+
+        .info-box {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            border-left: 4px solid #ffc107;
+        }
+
+        .contact-info {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: var(--white);
+            padding: 2rem;
+            border-radius: 12px;
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .contact-info h3 {
+            color: var(--white);
+            margin-top: 0;
+        }
+
+        .contact-info a {
+            color: var(--white);
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+        /* フッター */
+        footer {
+            background: var(--text-dark);
+            color: var(--white);
+            padding: 2rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .copyright {
+            opacity: 0.6;
+            font-size: 0.9rem;
+        }
+
+        /* レスポンシブ */
+        @media (max-width: 768px) {
+            main {
+                margin: 1rem;
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            .logo-icon {
+                width: 35px;
+                height: 35px;
+            }
+
+            .logo {
+                font-size: 1.3rem;
+            }
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="kokita_irodori_blue_icon.png" alt="ココキタアイコン" class="logo-icon">
+                <span>ココキタ</span>
+            </a>
+            <a href="index.html" class="back-link">← トップページに戻る</a>
+        </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main>
+        <h1>利用規約</h1>
+        <p class="last-updated">最終更新日：2025年11月</p>
+
+        <div class="section">
+            <p>本利用規約（以下「本規約」）は、ryo hashimoto（以下「開発者」）が提供するiOSアプリケーション「ココキタ」（以下「本アプリ」）の利用条件を定めるものです。本アプリをご利用いただく際には、本規約に同意いただいたものとみなします。</p>
+        </div>
+
+        <div class="section">
+            <h2>第1条（適用範囲）</h2>
+            <p>本規約は、ユーザーと開発者との間の本アプリの利用に関わる一切の関係に適用されます。</p>
+        </div>
+
+        <div class="section">
+            <h2>第2条（サービスの内容）</h2>
+            <p>本アプリは、以下の機能を提供します：</p>
+            <ul>
+                <li>GPS位置情報を用いた訪問記録の作成・管理</li>
+                <li>写真、メモ、ラベル、グループ、メンバー情報の記録</li>
+                <li>近隣施設の検索機能（ココカモ）</li>
+                <li>地図表示機能</li>
+                <li>訪問記録の検索・フィルタリング機能</li>
+            </ul>
+            <div class="info-box">
+                <p><strong>重要：</strong>本アプリはすべてのデータをデバイス内に保存します。開発者のサーバーやクラウドサービスにデータは送信されません。</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>第3条（禁止事項）</h2>
+            <p>ユーザーは、本アプリの利用にあたり、以下の行為を行ってはなりません：</p>
+            <ol>
+                <li>GPS偽装アプリや外部デバイスを使用して、虚偽の位置情報を記録する行為</li>
+                <li>本アプリを不正な目的で使用する行為</li>
+                <li>本アプリのリバースエンジニアリング、逆コンパイル、逆アセンブルを行う行為</li>
+                <li>本アプリの機能を妨害する行為</li>
+                <li>第三者になりすまして本アプリを利用する行為</li>
+                <li>法令または公序良俗に違反する行為</li>
+                <li>その他、開発者が不適切と判断する行為</li>
+            </ol>
+            <div class="warning-box">
+                <p><strong>注意：</strong>本アプリは位置情報の偽装を検出する機能を備えています。偽装が検出された場合、訪問記録の作成ができません。</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>第4条（免責事項）</h2>
+            <p>開発者は、以下の事項について一切の責任を負いません：</p>
+
+            <h3>4.1 位置情報の精度</h3>
+            <ul>
+                <li>GPS信号の受信状況、デバイスの状態、周辺環境などにより、位置情報の精度が低下する場合があります</li>
+                <li>本アプリが記録する位置情報の正確性について、開発者は保証しません</li>
+            </ul>
+
+            <h3>4.2 データの損失</h3>
+            <ul>
+                <li>デバイスの故障、紛失、アプリの削除、iOSのアップデートなどにより、保存されたデータが失われる可能性があります</li>
+                <li>開発者はデータのバックアップ機能を提供していません。ユーザー自身でデータ管理を行ってください</li>
+            </ul>
+
+            <h3>4.3 サービスの中断</h3>
+            <ul>
+                <li>アプリの不具合、メンテナンス、iOSの仕様変更などにより、本アプリが利用できなくなる場合があります</li>
+                <li>開発者は、事前の通知なくアプリの提供を中断または終了する場合があります</li>
+            </ul>
+
+            <h3>4.4 損害賠償</h3>
+            <ul>
+                <li>本アプリの利用または利用不能により生じた一切の損害（直接損害、間接損害、逸失利益を含む）について、開発者は責任を負いません</li>
+                <li>ただし、消費者契約法などの強行法規により開発者の責任が制限されない場合を除きます</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>第5条（知的財産権）</h2>
+            <p>本アプリに関する著作権、商標権、その他一切の知的財産権は、開発者に帰属します。ユーザーは、本アプリの利用許諾を受けるものであり、本アプリ自体の所有権を取得するものではありません。</p>
+        </div>
+
+        <div class="section">
+            <h2>第6条（アプリの変更・終了）</h2>
+            <ul>
+                <li>開発者は、ユーザーへの事前通知なく、本アプリの内容を変更、追加、削除することができます</li>
+                <li>開発者は、App Storeでの本アプリの配信を終了する場合があります</li>
+                <li>開発者は、本アプリの提供終了により生じた損害について責任を負いません</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>第7条（プライバシー）</h2>
+            <p>本アプリにおける個人情報の取り扱いについては、別途定める<a href="privacy.html">プライバシーポリシー</a>に従います。</p>
+        </div>
+
+        <div class="section">
+            <h2>第8条（利用規約の変更）</h2>
+            <p>開発者は、必要に応じて本規約を変更することができます。変更後の規約は、本アプリ内または本ページで通知した時点から効力を生じるものとします。変更後も本アプリを継続して利用する場合、変更後の規約に同意したものとみなします。</p>
+        </div>
+
+        <div class="section">
+            <h2>第9条（準拠法・管轄裁判所）</h2>
+            <ul>
+                <li>本規約の解釈にあたっては、日本法を準拠法とします</li>
+                <li>本アプリに関して紛争が生じた場合には、開発者の所在地を管轄する裁判所を専属的合意管轄とします</li>
+            </ul>
+        </div>
+
+        <div class="contact-info">
+            <h3>第10条（お問い合わせ）</h3>
+            <p>本規約に関するお問い合わせは、以下までご連絡ください。</p>
+            <p><strong>メールアドレス</strong>: <a href="mailto:irodori.developer@gmail.com">irodori.developer@gmail.com</a></p>
+        </div>
+
+        <hr class="language-divider">
+
+        <p style="text-align: center; color: var(--text-light); margin: 2rem 0;">
+            <strong>制定日</strong>: 2025年11月25日<br>
+            <strong>最終改定日</strong>: 2025年11月25日<br>
+            ryo hashimoto
+        </p>
+
+        <hr class="language-divider">
+
+        <!-- English Version -->
+        <h1>Terms of Service</h1>
+        <p class="last-updated">Last Updated: November 2025</p>
+
+        <div class="section">
+            <p>These Terms of Service (hereinafter referred to as "Terms") set forth the conditions for using the iOS application "Kokokita" (hereinafter referred to as "App") provided by ryo hashimoto (hereinafter referred to as "Developer"). By using the App, you agree to be bound by these Terms.</p>
+        </div>
+
+        <div class="section">
+            <h2>Article 1 (Scope of Application)</h2>
+            <p>These Terms apply to all relationships between users and the Developer regarding the use of the App.</p>
+        </div>
+
+        <div class="section">
+            <h2>Article 2 (Service Content)</h2>
+            <p>The App provides the following features:</p>
+            <ul>
+                <li>Creating and managing visit records using GPS location information</li>
+                <li>Recording photos, notes, labels, groups, and member information</li>
+                <li>Nearby facility search function (Kokokamo)</li>
+                <li>Map display function</li>
+                <li>Visit record search and filtering functions</li>
+            </ul>
+            <div class="info-box">
+                <p><strong>Important:</strong> The App stores all data on your device. No data is transmitted to the Developer's servers or cloud services.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Article 3 (Prohibited Acts)</h2>
+            <p>Users shall not engage in the following acts when using the App:</p>
+            <ol>
+                <li>Using GPS spoofing apps or external devices to record false location information</li>
+                <li>Using the App for unlawful purposes</li>
+                <li>Reverse engineering, decompiling, or disassembling the App</li>
+                <li>Interfering with the App's functionality</li>
+                <li>Impersonating others when using the App</li>
+                <li>Acts that violate laws or public order and morals</li>
+                <li>Other acts deemed inappropriate by the Developer</li>
+            </ol>
+            <div class="warning-box">
+                <p><strong>Notice:</strong> The App has functionality to detect location spoofing. If spoofing is detected, visit record creation will be disabled.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Article 4 (Disclaimer)</h2>
+            <p>The Developer assumes no responsibility for the following:</p>
+
+            <h3>4.1 Location Information Accuracy</h3>
+            <ul>
+                <li>Location accuracy may decrease due to GPS signal reception, device condition, surrounding environment, etc.</li>
+                <li>The Developer does not guarantee the accuracy of location information recorded by the App</li>
+            </ul>
+
+            <h3>4.2 Data Loss</h3>
+            <ul>
+                <li>Stored data may be lost due to device failure, loss, app deletion, iOS updates, etc.</li>
+                <li>The Developer does not provide backup functionality. Users are responsible for their own data management</li>
+            </ul>
+
+            <h3>4.3 Service Interruption</h3>
+            <ul>
+                <li>The App may become unavailable due to bugs, maintenance, iOS specification changes, etc.</li>
+                <li>The Developer may suspend or terminate the App without prior notice</li>
+            </ul>
+
+            <h3>4.4 Damages</h3>
+            <ul>
+                <li>The Developer is not responsible for any damages (including direct damages, indirect damages, and lost profits) arising from the use or inability to use the App</li>
+                <li>Except where Developer liability cannot be limited under mandatory laws such as consumer protection laws</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Article 5 (Intellectual Property Rights)</h2>
+            <p>All intellectual property rights related to the App, including copyrights and trademarks, belong to the Developer. Users receive a license to use the App and do not acquire ownership of the App itself.</p>
+        </div>
+
+        <div class="section">
+            <h2>Article 6 (App Modifications and Termination)</h2>
+            <ul>
+                <li>The Developer may modify, add to, or delete App content without prior notice to users</li>
+                <li>The Developer may terminate distribution of the App on the App Store</li>
+                <li>The Developer is not responsible for damages arising from termination of the App</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Article 7 (Privacy)</h2>
+            <p>The handling of personal information in the App is governed by the separately defined <a href="privacy.html">Privacy Policy</a>.</p>
+        </div>
+
+        <div class="section">
+            <h2>Article 8 (Changes to Terms of Service)</h2>
+            <p>The Developer may change these Terms as necessary. Modified Terms take effect from the time of notification within the App or on this page. Continued use of the App after modifications constitutes acceptance of the modified Terms.</p>
+        </div>
+
+        <div class="section">
+            <h2>Article 9 (Governing Law and Jurisdiction)</h2>
+            <ul>
+                <li>These Terms shall be governed by Japanese law</li>
+                <li>In the event of disputes arising from the App, the court having jurisdiction over the Developer's location shall have exclusive jurisdiction</li>
+            </ul>
+        </div>
+
+        <div class="contact-info">
+            <h3>Article 10 (Contact)</h3>
+            <p>For inquiries regarding these Terms, please contact:</p>
+            <p><strong>Email</strong>: <a href="mailto:irodori.developer@gmail.com">irodori.developer@gmail.com</a></p>
+        </div>
+
+        <p style="text-align: center; color: var(--text-light); margin: 2rem 0;">
+            <strong>Effective Date</strong>: November 25, 2025<br>
+            <strong>Last Revised</strong>: November 25, 2025<br>
+            ryo hashimoto
+        </p>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+        <p class="copyright">&copy; 2024 ココキタ. All rights reserved.</p>
+    </footer>
+</body>
+</html>
