@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ryo211.github.io/kokokita_lp/sitemap.xml
+Sitemap: https://kokokita.irodoriq.com/sitemap.xml
