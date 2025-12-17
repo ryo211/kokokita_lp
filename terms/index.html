@@ -64,15 +64,258 @@
             border-radius: 10px;
         }
 
-        .back-link {
-            color: var(--primary-color);
-            text-decoration: none;
-            font-weight: 500;
-            transition: opacity 0.3s;
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
         }
 
-        .back-link:hover {
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-dark);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        /* SNS共有ボタン - ヘッダー用 */
+        .share-section {
+            display: flex;
+            align-items: center;
+            gap: 0;
+        }
+
+        .share-label {
+            display: none;
+        }
+
+        .share-buttons {
+            display: flex;
+            gap: 0.25rem;
+            background: var(--bg-light);
+            padding: 0.25rem;
+            border-radius: 50px;
+        }
+
+        .share-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: var(--white);
+            color: var(--text-dark);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+        }
+
+        .share-button:hover {
+            transform: translateY(-2px) scale(1.08);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .share-button-twitter:hover {
+            background: #1DA1F2;
+            border-color: #1DA1F2;
+            color: var(--white);
+        }
+
+        .share-button-facebook:hover {
+            background: #1877F2;
+            border-color: #1877F2;
+            color: var(--white);
+        }
+
+        .share-button-line:hover {
+            background: #06C755;
+            border-color: #06C755;
+            color: var(--white);
+        }
+
+        .share-button-email:hover {
+            background: var(--text-dark);
+            color: var(--white);
+            border-color: var(--text-dark);
+        }
+
+        /* ハンバーガーメニュー */
+        .menu-toggle {
+            display: none;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 4px;
+            cursor: pointer;
+            padding: 8px;
+            z-index: 1001;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: var(--text-dark);
+            transition: all 0.3s ease;
+            border-radius: 2px;
+        }
+
+        .menu-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 280px;
+            height: 100vh;
+            background: var(--white);
+            z-index: 1000;
+            transition: right 0.3s ease;
+            box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+        }
+
+        .mobile-menu-content {
+            padding: 5rem 2rem 2rem;
+        }
+
+        .mobile-menu-links {
+            list-style: none;
+        }
+
+        .mobile-menu-links li {
+            margin-bottom: 0.5rem;
+        }
+
+        .mobile-menu-links a {
+            display: block;
+            padding: 1rem;
+            color: var(--text-dark);
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        .mobile-menu-links a:hover {
+            background: var(--bg-light);
+        }
+
+        .mobile-share-section {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--bg-light);
+        }
+
+        .mobile-share-section h4 {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .mobile-share-buttons {
+            display: flex;
+            gap: 0.75rem;
+            justify-content: center;
+        }
+
+        .mobile-share-buttons .share-button {
+            width: 48px;
+            height: 48px;
+            font-size: 1.2rem;
+        }
+
+        .mobile-menu-divider {
+            margin: 2rem 0;
+            border-top: 1px solid var(--bg-light);
+        }
+
+        .mobile-menu-section-title {
+            font-size: 0.75rem;
+            color: var(--text-light);
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .mobile-menu-secondary-links {
+            list-style: none;
+        }
+
+        .mobile-menu-secondary-links li {
+            margin-bottom: 0.25rem;
+        }
+
+        .mobile-menu-secondary-links a {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem 1rem;
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 400;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .mobile-menu-secondary-links a:hover {
+            background: var(--bg-light);
+            color: var(--text-dark);
+        }
+
+        .mobile-menu-secondary-links .link-icon {
+            font-size: 1rem;
             opacity: 0.7;
+        }
+
+        .menu-toggle:checked ~ .menu-overlay {
+            display: block;
+            opacity: 1;
+        }
+
+        .menu-toggle:checked ~ .mobile-menu {
+            right: 0;
+        }
+
+        .menu-toggle:checked ~ .header-container .hamburger span:nth-child(1) {
+            transform: rotate(45deg) translate(6px, 6px);
+        }
+
+        .menu-toggle:checked ~ .header-container .hamburger span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .menu-toggle:checked ~ .header-container .hamburger span:nth-child(3) {
+            transform: rotate(-45deg) translate(6px, -6px);
         }
 
         /* メインコンテンツ */
@@ -231,6 +474,18 @@
             .logo {
                 font-size: 1.3rem;
             }
+
+            .nav-links {
+                display: none;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .header-right .share-section {
+                display: none;
+            }
         }
 
         html {
@@ -239,6 +494,71 @@
     </style>
 </head>
 <body>
+    <!-- ハンバーガーメニュー用チェックボックス -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+    <!-- メニューオーバーレイ -->
+    <label for="menu-toggle" class="menu-overlay"></label>
+
+    <!-- モバイルメニュー -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <ul class="mobile-menu-links">
+                <li><a href="/#screenshots" onclick="document.getElementById('menu-toggle').checked = false">使い方</a></li>
+                <li><a href="/#features" onclick="document.getElementById('menu-toggle').checked = false">特徴</a></li>
+                <li><a href="/#capabilities" onclick="document.getElementById('menu-toggle').checked = false">機能</a></li>
+                <li><a href="/#security" onclick="document.getElementById('menu-toggle').checked = false">セキュリティ</a></li>
+                <li><a href="/#recommended" onclick="document.getElementById('menu-toggle').checked = false">おすすめ</a></li>
+                <li><a href="/#download" onclick="document.getElementById('menu-toggle').checked = false">ダウンロード</a></li>
+            </ul>
+
+            <!-- モバイルメニュー内の共有ボタン -->
+            <div class="mobile-share-section">
+                <h4>Share</h4>
+                <div class="mobile-share-buttons">
+                    <a href="https://twitter.com/intent/tweet?text=ココキタ%20-%20いつ、どこに来たか、一目で分かる訪問記録アプリ&url=https://kokokita.irodoriq.com" class="share-button share-button-twitter" target="_blank" rel="noopener noreferrer" title="Xでシェア">
+                        𝕏
+                    </a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://kokokita.irodoriq.com" class="share-button share-button-facebook" target="_blank" rel="noopener noreferrer" title="Facebookでシェア">
+                        f
+                    </a>
+                    <a href="https://line.me/R/msg/text/?ココキタ%20-%20いつ、どこに来たか、一目で分かる訪問記録アプリ%20https://kokokita.irodoriq.com" class="share-button share-button-line" target="_blank" rel="noopener noreferrer" title="LINEで送る">
+                        📱
+                    </a>
+                    <a href="mailto:?subject=ココキタ - 訪問記録アプリのご紹介&body=いつ、どこに来たか、一目で分かる訪問記録アプリ「ココキタ」をご紹介します。%0A%0Ahttps://kokokita.irodoriq.com" class="share-button share-button-email" title="メールで送る">
+                        ✉
+                    </a>
+                </div>
+            </div>
+
+            <!-- 仕切り -->
+            <div class="mobile-menu-divider"></div>
+
+            <!-- その他のリンク -->
+            <div class="mobile-menu-section-title">その他</div>
+            <ul class="mobile-menu-secondary-links">
+                <li>
+                    <a href="/privacy/">
+                        <span class="link-icon">🔒</span>
+                        <span>プライバシーポリシー</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/terms/">
+                        <span class="link-icon">📄</span>
+                        <span>利用規約</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/support/">
+                        <span class="link-icon">🛟</span>
+                        <span>サポート</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <!-- ヘッダー -->
     <header>
         <div class="header-container">
@@ -246,7 +566,42 @@
                 <img src="../kokita_irodori_blue_icon.png" alt="ココキタアイコン" class="logo-icon">
                 <span>ココキタ</span>
             </a>
-            <a href="/" class="back-link">← トップページに戻る</a>
+            <div class="header-right">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="/#screenshots">使い方</a></li>
+                        <li><a href="/#features">特徴</a></li>
+                        <li><a href="/#capabilities">機能</a></li>
+                        <li><a href="/#security">セキュリティ</a></li>
+                        <li><a href="/#recommended">おすすめ</a></li>
+                        <li><a href="/support/">サポート</a></li>
+                    </ul>
+                </nav>
+                <!-- SNS共有 -->
+                <div class="share-section">
+                    <div class="share-label">Share</div>
+                    <div class="share-buttons">
+                        <a href="https://twitter.com/intent/tweet?text=ココキタ%20-%20いつ、どこに来たか、一目で分かる訪問記録アプリ&url=https://kokokita.irodoriq.com" class="share-button share-button-twitter" target="_blank" rel="noopener noreferrer" title="Xでシェア">
+                            𝕏
+                        </a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://kokokita.irodoriq.com" class="share-button share-button-facebook" target="_blank" rel="noopener noreferrer" title="Facebookでシェア">
+                            f
+                        </a>
+                        <a href="https://line.me/R/msg/text/?ココキタ%20-%20いつ、どこに来たか、一目で分かる訪問記録アプリ%20https://kokokita.irodoriq.com" class="share-button share-button-line" target="_blank" rel="noopener noreferrer" title="LINEで送る">
+                            📱
+                        </a>
+                        <a href="mailto:?subject=ココキタ - 訪問記録アプリのご紹介&body=いつ、どこに来たか、一目で分かる訪問記録アプリ「ココキタ」をご紹介します。%0A%0Ahttps://kokokita.irodoriq.com" class="share-button share-button-email" title="メールで送る">
+                            ✉
+                        </a>
+                    </div>
+                </div>
+                <!-- ハンバーガーアイコン -->
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
         </div>
     </header>
 
