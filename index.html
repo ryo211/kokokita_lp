@@ -650,6 +650,34 @@
             direction: ltr;
         }
 
+        .screenshot-images-flow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .screenshot-images-flow img {
+            width: 45%;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .screenshot-images-flow img:hover {
+            transform: scale(1.05);
+        }
+
+        .screenshot-flow-arrow {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
         .screenshot-image {
             width: 100%;
             max-width: 400px;
@@ -798,6 +826,19 @@
                 max-width: 300px;
             }
 
+            .screenshot-images-flow {
+                max-width: 300px;
+                margin: 0 auto;
+            }
+
+            .screenshot-images-flow img {
+                border-radius: 15px;
+            }
+
+            .screenshot-flow-arrow {
+                font-size: 1.2rem;
+            }
+
             .screenshot-content h3 {
                 font-size: 1.5rem;
             }
@@ -942,7 +983,7 @@
             <p class="section-subtitle">シンプルで直感的な操作で、訪問記録を簡単に管理</p>
 
             <div class="screenshot-item">
-                <img src="kokokita_tap.png" alt="ココキタ - ボタンを押すだけで記録" class="screenshot-image" loading="lazy">
+                <img src="images/kokokita_save.png" alt="ココキタ - ボタンを押すだけで記録" class="screenshot-image" loading="lazy">
                 <div class="screenshot-content">
                     <div class="screenshot-number">1</div>
                     <h3>ボタンを押すだけで<br>「いつ」「どこに」来たかを記録</h3>
@@ -951,27 +992,36 @@
             </div>
 
             <div class="screenshot-item">
-                <img src="kokokita_edit.png" alt="ココキタ - 簡単入力" class="screenshot-image" loading="lazy">
+                <img src="images/kokokita_spot.png" alt="ココキタ - 周囲のスポットから選択" class="screenshot-image" loading="lazy">
                 <div class="screenshot-content">
                     <div class="screenshot-number">2</div>
+                    <h3>周囲のスポットから選択して<br>自動入力</h3>
+                    <p>現在地周辺の施設や過去に記録した近くの場所を表示。タップするだけで場所情報を自動入力できるので、入力の手間を大幅に削減できます。</p>
+                </div>
+            </div>
+
+            <div class="screenshot-item">
+                <img src="images/kokokita_detail.png" alt="ココキタ - 簡単入力" class="screenshot-image" loading="lazy">
+                <div class="screenshot-content">
+                    <div class="screenshot-number">3</div>
                     <h3>行った場所の情報を<br>簡単入力</h3>
                     <p>写真、メモ、ラベルを追加して記録を充実させましょう。周辺施設の自動検索（ココカモ）で、施設情報も簡単に記録できます。</p>
                 </div>
             </div>
 
             <div class="screenshot-item">
-                <img src="kokokita_filter.png" alt="ココキタ - 簡単絞り込み" class="screenshot-image" loading="lazy">
+                <img src="images/kokokita_list.png" alt="ココキタ - 簡単絞り込み" class="screenshot-image" loading="lazy">
                 <div class="screenshot-content">
-                    <div class="screenshot-number">3</div>
+                    <div class="screenshot-number">4</div>
                     <h3>行った場所を日付やキーワード、<br>ラベルで簡単絞り込み</h3>
                     <p>豊富な検索機能で、過去の訪問記録を素早く見つけられます。日付範囲、ラベル、グループ、メンバー、キーワードなど、多彩な条件で絞り込み可能。</p>
                 </div>
             </div>
 
             <div class="screenshot-item">
-                <img src="kokokita_map.png" alt="ココキタ - 地図表示" class="screenshot-image" loading="lazy">
+                <img src="images/kokokita_map.png" alt="ココキタ - 地図表示" class="screenshot-image" loading="lazy">
                 <div class="screenshot-content">
-                    <div class="screenshot-number">4</div>
+                    <div class="screenshot-number">5</div>
                     <h3>今まで行った場所を<br>地図で表示</h3>
                     <p>訪問記録を地図上で一目で確認。視覚的に訪問履歴を管理できるので、旅行の思い出や営業エリアの把握に最適です。</p>
                 </div>
