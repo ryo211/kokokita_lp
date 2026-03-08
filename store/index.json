@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-03-08T00:00:00Z",
+  "courses": [
+    {
+      "id": "course-continued-100-famous-castles-japan-001",
+      "title": "続日本100名城",
+      "summary": "公益財団法人日本城郭協会が2017年に選定する「続日本100名城」を巡るコースです。",
+      "categories": ["architecture","history_culture"],
+      "version": 1,
+      "coverImageUrl": null,
+      "spotCount": 100,
+      "jsonPath": "courses/continued_100_castles_course.json",
+      "updatedAt": "2026-03-08T00:00:00Z"
+    },
+    {
+      "id": "course-tokyo-shitamachi-walk-001",
+      "title": "東京下町さんぽ",
+      "summary": "浅草・上野・谷根千の3エリアを巡る東京下町散歩コースです。エリアごとにセクションが分かれており、半日〜1日で巡れます。",
+      "categories": ["sightseeing", "history_culture"],
+      "version": 1,
+      "coverImageUrl": null,
+      "spotCount": 9,
+      "jsonPath": "courses/tokyo_shitamachi_walk_001.json",
+      "updatedAt": "2026-03-08T00:00:00Z"
+    }
+  ]
+}

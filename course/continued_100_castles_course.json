@@ -1,0 +1,1018 @@
+{
+  "id": "course-continued-100-famous-castles-japan-001",
+  "courseType": "stamp_rally",
+  "title": "続日本100名城",
+  "summary": "公益財団法人日本城郭協会が2017年に選定する「続日本100名城」を巡るコースです。",
+  "source": "bundled",
+  "isUserCreated": false,
+  "version": 1,
+  "recognitionRadiusMeters": 500.0,
+  "detailUrl": "https://jokaku.jp/cont100/",
+  "coverImageUrl": null,
+  "categories": [
+    "architecture",
+    "history_culture"
+  ],
+  "spots": [
+    {
+      "spotId": "c100z-jp-001",
+      "name": "志苔館",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.101）。",
+      "orderIndex": 0,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-002",
+      "name": "上ノ国勝山館",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.102）。",
+      "orderIndex": 1,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-003",
+      "name": "浪岡城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.103）。",
+      "orderIndex": 2,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-004",
+      "name": "九戸城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.104）。",
+      "orderIndex": 3,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-005",
+      "name": "白石城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.105）。",
+      "orderIndex": 4,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-006",
+      "name": "脇本城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.106）。",
+      "orderIndex": 5,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-007",
+      "name": "秋田城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.107）。",
+      "orderIndex": 6,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-008",
+      "name": "鶴ヶ岡城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.108）。",
+      "orderIndex": 7,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-009",
+      "name": "米沢城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.109）。",
+      "orderIndex": 8,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-010",
+      "name": "三春城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.110）。",
+      "orderIndex": 9,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-011",
+      "name": "向羽黒山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.111）。",
+      "orderIndex": 10,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-012",
+      "name": "笠間城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.112）。",
+      "orderIndex": 11,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-013",
+      "name": "土浦城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.113）。",
+      "orderIndex": 12,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-014",
+      "name": "唐沢山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.114）。",
+      "orderIndex": 13,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-015",
+      "name": "宇都宮城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.115）。",
+      "orderIndex": 14,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-016",
+      "name": "沼田城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.116）。",
+      "orderIndex": 15,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-017",
+      "name": "岩櫃城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.117）。",
+      "orderIndex": 16,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-018",
+      "name": "忍城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.118）。",
+      "orderIndex": 17,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-019",
+      "name": "杉山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.119）。",
+      "orderIndex": 18,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-020",
+      "name": "菅谷館",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.120）。",
+      "orderIndex": 19,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-021",
+      "name": "本佐倉城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.121）。",
+      "orderIndex": 20,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-022",
+      "name": "大多喜城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.122）。",
+      "orderIndex": 21,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-023",
+      "name": "滝山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.123）。",
+      "orderIndex": 22,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-024",
+      "name": "品川台場",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.124）。",
+      "orderIndex": 23,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-025",
+      "name": "小机城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.125）。",
+      "orderIndex": 24,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-026",
+      "name": "石垣山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.126）。",
+      "orderIndex": 25,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-027",
+      "name": "新府城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.127）。",
+      "orderIndex": 26,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-028",
+      "name": "要害山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.128）。",
+      "orderIndex": 27,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-029",
+      "name": "龍岡城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.129）。",
+      "orderIndex": 28,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-030",
+      "name": "高島城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.130）。",
+      "orderIndex": 29,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-031",
+      "name": "村上城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.131）。",
+      "orderIndex": 30,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-032",
+      "name": "鮫ヶ尾城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.132）。",
+      "orderIndex": 31,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-033",
+      "name": "高田城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.133）。",
+      "orderIndex": 32,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-034",
+      "name": "富山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.134）。",
+      "orderIndex": 33,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-035",
+      "name": "増山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.135）。",
+      "orderIndex": 34,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-036",
+      "name": "鳥越城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.136）。",
+      "orderIndex": 35,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-037",
+      "name": "福井城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.137）。",
+      "orderIndex": 36,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-038",
+      "name": "越前大野城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.138）。",
+      "orderIndex": 37,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-039",
+      "name": "佐柿国吉城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.139）。",
+      "orderIndex": 38,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-040",
+      "name": "玄蕃尾城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.140）。",
+      "orderIndex": 39,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-041",
+      "name": "郡上八幡城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.141）。",
+      "orderIndex": 40,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-042",
+      "name": "苗木城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.142）。",
+      "orderIndex": 41,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-043",
+      "name": "美濃金山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.143）。",
+      "orderIndex": 42,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-044",
+      "name": "大垣城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.144）。",
+      "orderIndex": 43,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-045",
+      "name": "興国寺城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.145）。",
+      "orderIndex": 44,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-046",
+      "name": "諏訪原城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.146）。",
+      "orderIndex": 45,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-047",
+      "name": "高天神城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.147）。",
+      "orderIndex": 46,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-048",
+      "name": "浜松城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.148）。",
+      "orderIndex": 47,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-049",
+      "name": "小牧山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.149）。",
+      "orderIndex": 48,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-050",
+      "name": "古宮城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.150）。",
+      "orderIndex": 49,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-051",
+      "name": "吉田城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.151）。",
+      "orderIndex": 50,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-052",
+      "name": "津城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.152）。",
+      "orderIndex": 51,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-053",
+      "name": "多気北畠氏城館",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.153）。",
+      "orderIndex": 52,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-054",
+      "name": "田丸城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.154）。",
+      "orderIndex": 53,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-055",
+      "name": "赤木城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.155）。",
+      "orderIndex": 54,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-056",
+      "name": "鎌刃城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.156）。",
+      "orderIndex": 55,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-057",
+      "name": "八幡山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.157）。",
+      "orderIndex": 56,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-058",
+      "name": "福知山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.158）。",
+      "orderIndex": 57,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-059",
+      "name": "芥川山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.159）。",
+      "orderIndex": 58,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-060",
+      "name": "飯盛城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.160）。",
+      "orderIndex": 59,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-061",
+      "name": "岸和田城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.161）。",
+      "orderIndex": 60,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-062",
+      "name": "出石城・有子山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.162）。",
+      "orderIndex": 61,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-063",
+      "name": "黒井城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.163）。",
+      "orderIndex": 62,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-064",
+      "name": "洲本城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.164）。",
+      "orderIndex": 63,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-065",
+      "name": "大和郡山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.165）。",
+      "orderIndex": 64,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-066",
+      "name": "宇陀松山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.166）。",
+      "orderIndex": 65,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-067",
+      "name": "新宮城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.167）。",
+      "orderIndex": 66,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-068",
+      "name": "若桜鬼ヶ城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.168）。",
+      "orderIndex": 67,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-069",
+      "name": "米子城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.169）。",
+      "orderIndex": 68,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-070",
+      "name": "浜田城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.170）。",
+      "orderIndex": 69,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-071",
+      "name": "備中高松城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.171）。",
+      "orderIndex": 70,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-072",
+      "name": "三原城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.172）。",
+      "orderIndex": 71,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-073",
+      "name": "新高山城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.173）。",
+      "orderIndex": 72,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-074",
+      "name": "大内氏館・高嶺城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.174）。",
+      "orderIndex": 73,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-075",
+      "name": "勝瑞城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.175）。",
+      "orderIndex": 74,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-076",
+      "name": "一宮城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.176）。",
+      "orderIndex": 75,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-077",
+      "name": "引田城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.177）。",
+      "orderIndex": 76,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-078",
+      "name": "能島城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.178）。",
+      "orderIndex": 77,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-079",
+      "name": "河後森城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.179）。",
+      "orderIndex": 78,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-080",
+      "name": "岡豊城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.180）。",
+      "orderIndex": 79,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-081",
+      "name": "小倉城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.181）。",
+      "orderIndex": 80,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-082",
+      "name": "水城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.182）。",
+      "orderIndex": 81,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-083",
+      "name": "久留米城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.183）。",
+      "orderIndex": 82,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-084",
+      "name": "基肄城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.184）。",
+      "orderIndex": 83,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-085",
+      "name": "唐津城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.185）。",
+      "orderIndex": 84,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-086",
+      "name": "金田城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.186）。",
+      "orderIndex": 85,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-087",
+      "name": "福江城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.187）。",
+      "orderIndex": 86,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-088",
+      "name": "原城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.188）。",
+      "orderIndex": 87,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-089",
+      "name": "鞠智城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.189）。",
+      "orderIndex": 88,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-090",
+      "name": "八代城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.190）。",
+      "orderIndex": 89,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-091",
+      "name": "中津城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.191）。",
+      "orderIndex": 90,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-092",
+      "name": "角牟礼城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.192）。",
+      "orderIndex": 91,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-093",
+      "name": "臼杵城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.193）。",
+      "orderIndex": 92,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-094",
+      "name": "佐伯城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.194）。",
+      "orderIndex": 93,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-095",
+      "name": "延岡城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.195）。",
+      "orderIndex": 94,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-096",
+      "name": "佐土原城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.196）。",
+      "orderIndex": 95,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-097",
+      "name": "志布志城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.197）。",
+      "orderIndex": 96,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-098",
+      "name": "知覧城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.198）。",
+      "orderIndex": 97,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-099",
+      "name": "座喜味城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.199）。",
+      "orderIndex": 98,
+      "recognitionRadiusMeters": null,
+      "address": null
+    },
+    {
+      "spotId": "c100z-jp-100",
+      "name": "勝連城",
+      "latitude": null,
+      "longitude": null,
+      "spotDescription": "続日本100名城（No.200）。",
+      "orderIndex": 99,
+      "recognitionRadiusMeters": null,
+      "address": null
+    }
+  ]
+}
